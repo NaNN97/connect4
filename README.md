@@ -5,6 +5,5 @@
 https://github.com/NaNN97/connect4/assets/17276475/08461172-c6ef-46fa-a5af-2af825dc4d98
 
 enjoy 🙂
-<video src="https://github.com/NaNN97/connect4/assets/17276475/08461172-c6ef-46fa-a5af-2af825dc4d98" width="300" />
 
 
