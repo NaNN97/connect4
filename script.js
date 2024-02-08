@@ -46,6 +46,10 @@ function dropPiece(col) {
                 initBoard();
                 renderBoard();
                 return;
+            } else if (checkDraw()) {
+                player.textContent = (`It's a draw!`);
+                initBoard();
+                renderBoard();
             }
             currentPlayer = currentPlayer === 1 ? 2 : 1;
             return;
@@ -79,6 +83,10 @@ function checkWin(row, col) {
         }
     }
     return false;
+}
+
+function checkDraw() {
+    return board.every(row => row.every(cell => cell !== 0));
 }
 
 // Start the game
